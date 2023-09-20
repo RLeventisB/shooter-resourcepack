@@ -12,6 +12,12 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "weapons/pistolaelm0"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 2
 			},
 			"model": "weapons/pistolaelm0"
