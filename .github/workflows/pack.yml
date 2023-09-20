@@ -20,6 +20,7 @@ jobs:
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: Push changes to remote
       run: |
+        git checkout output
         git add -A
         git commit -m "new pack"
         git push --force
