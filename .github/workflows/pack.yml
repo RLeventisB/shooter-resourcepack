@@ -17,6 +17,7 @@ jobs:
         git checkout output
         
         rm -f release.zip
+        git checkout main
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
@@ -24,6 +25,7 @@ jobs:
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: Push changes to remote
       run: |
+        git checkout output
         git add -A
         git commit -m "new pack"
         git push --force
