@@ -12,6 +12,8 @@ jobs:
         git config --global user.email "bruh@gmail.com"
         git config pull.rebase false
         git pull origin main
+        
+        git fetch 
         git checkout output
         
         rm -f release.zip
