@@ -12,12 +12,7 @@ jobs:
         git config --global user.email "bruh@gmail.com"
         git config pull.rebase false
         git pull origin main
-        
-        git fetch 
-        git checkout output
-        
         rm -f release.zip
-        git checkout main
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
@@ -25,7 +20,6 @@ jobs:
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: Push changes to remote
       run: |
-        git checkout output
         git add -A
         git commit -m "new pack"
         git push --force
