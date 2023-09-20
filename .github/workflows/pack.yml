@@ -5,12 +5,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@master
     - name: Pull latest and remove old file from repo
       run: |
         git config --global user.name "bruh"
         git config --global user.email "bruh@gmail.com"
         git config pull.rebase false
+        git checkout main
         git pull
         git checkout output
         
