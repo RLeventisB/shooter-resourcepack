@@ -11,8 +11,9 @@ jobs:
         git config --global user.name "bruh"
         git config --global user.email "bruh@gmail.com"
         git config pull.rebase false
-        git switch output
         git pull
+        git checkout output
+        
         rm -f release.zip
     - name: Archive Release
       uses: thedoctor0/zip-release@master
