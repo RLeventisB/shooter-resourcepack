@@ -1,7 +1,7 @@
 {
 	"parent": "item/handheld",
 	"textures": {
-		"layer0": "item/nether_brick"
+		"layer0": "item/crossbow"
 	},
 	"overrides":
 	[
