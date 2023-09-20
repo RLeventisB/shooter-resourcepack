@@ -6,7 +6,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
-    - name: pull latest and remove old file from repo
+    - name: Pull latest and remove old file from repo
       run: |
         git config --global user.name "bruh"
         git config --global user.email "bruh@gmail.com"
@@ -18,7 +18,9 @@ jobs:
       with:
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
-    - name: push changes to remote
+    - name: Push changes to remote
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git add -A
         git commit -m "new pack"
