@@ -3,24 +3,10 @@
 	"textures": {
 		"layer0": "item/nether_brick"
 	},
-	"overrides": [
-		{
-			"predicate": {
-				"custom_model_data": 0
-			},
-			"model": "item/nether_brick"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 1
-			},
-			"model": "weapons/pistolaelm0"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 2
-			},
-			"model": "weapons/pistolaelm0"
-		}
+	"overrides":
+	[
+		{ "predicate": { "custom_model_data": 0 }, "model": "item/nether_brick" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/weapons/pistolaelm0" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/weapons/pistolaelm0" }
 	]
 }
