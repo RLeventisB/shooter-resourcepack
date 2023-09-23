@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench holas 2 oy guxer esta es mi historia y o hice el laser amigable este es mi primer pmodelo de bllcok benk  a hare un mod epico q actualise mas dragonees grascias adiso",
+	"credit": "malditos putos hijo de puta Made with blockbench!!!!! mc.universocraft.com",
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "item/laseramigable",
@@ -98,8 +98,8 @@
 			}
 		},
 		{
-			"from": [13.01, 3, 8],
-			"to": [13.01, 5, 10],
+			"from": [13.05, 3, 8],
+			"to": [13.05, 5, 10],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 4, 12]},
 			"faces": {
 				"north": {"uv": [0, 0, 0, 0.5], "texture": "#0"},
