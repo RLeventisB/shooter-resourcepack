@@ -5,7 +5,7 @@
 	},
 	"overrides":
 	[
-		{ "predicate": { "custom_model_data": 1 }, "model": "item/weapons/pistolaelm0" },
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/weapons/laseramigable" },
 		{ "predicate": { "custom_model_data": 2 }, "model": "item/weapons/pistolaelm0" },
 		{ "predicate": { "custom_model_data": 3 }, "model": "item/weapons/rifleyuca" }
 	]
