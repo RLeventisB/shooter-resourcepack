@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/music_disc_11"
+	},
+	"overrides":
+	[
+		{ "predicate": { "custom_model_data": 6 }, "model": "item/subweapons/gumiportable" }
+	]
+}
