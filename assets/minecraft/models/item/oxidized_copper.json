@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/oxidized_copper"
+	},
+	"overrides":
+	[
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/vanity/sombrerito" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/vanity/avion" },
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/vanity/auto" }
+	]
+}
