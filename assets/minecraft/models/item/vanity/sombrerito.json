@@ -2,8 +2,8 @@
 	"credit": "malditos putos hijo de puta Made with blockbench!!!!! mc.universocraft.com",
 	"texture_size": [ 64, 64 ],
 	"textures": {
-		"0": "vanity/sombrerito",
-		"particle": "vanity/sombrerito"
+		"0": "item/vanity/sombrerito",
+		"particle": "item/vanity/sombrerito"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "malditos putos hijo de puta Made with blockbench!!!!! mc.universocraft.com",
 	"texture_size": [ 128, 128 ],
 	"textures": {
-		"0": "vanity/avion",
-		"particle": "vanity/avion"
+		"0": "item/vanity/avion",
+		"particle": "item/vanity/avion"
 	},
 	"elements": [
 		{
