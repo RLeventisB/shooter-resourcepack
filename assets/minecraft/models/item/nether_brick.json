@@ -11,6 +11,7 @@
 		{ "predicate": { "custom_model_data": 4 }, "model": "item/weapons/lasergravitatorio" },
 		{ "predicate": { "custom_model_data": 6 }, "model": "item/weapons/shogun" },
 		{ "predicate": { "custom_model_data": 9 }, "model": "item/weapons/laserrebotador" },
-		{ "predicate": { "custom_model_data": 17 }, "model": "item/weapons/banate" }
+		{ "predicate": { "custom_model_data": 17 }, "model": "item/weapons/banate" },
+		{ "predicate": { "custom_model_data": 27 }, "model": "item/weapons/martillo" }
 	]
 }
